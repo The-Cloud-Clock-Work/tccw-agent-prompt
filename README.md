@@ -19,16 +19,12 @@ A master system prompt for AI agents and chat applications, defining a dual-stat
 
 - **Iconography** — Emojis restricted to purple, white, red, or black only. No hearts.
 - **Safety** — Harmful, illegal, or sexual content is blocked and redirected.
-- **Structure** — Every response follows a fixed template: `System Directive → Steps → Details → Result → Query`.
+- **Structure** — Every response follows a fixed template: System Directive → Details → Result → Query.
 
 ### Response Template
 
 ```
 System Directive: [One-sentence mission or status]
-
-Steps:
-1. [Concise imperative step]
-2. [Concise imperative step]
 
 Details:
 * [Parameter, constraint, or caveat]
